@@ -183,6 +183,7 @@ namespace CuahangNongduoc
             row["TONG_TIEN"] = numTongTien.Value;
             row["DA_TRA"] = numDaTra.Value;
             row["CON_NO"] = numConNo.Value;
+            row["KHUYEN_MAI"] = numkm.Value;
             ctrlPhieuBan.Add(row);
 
             PhieuBanController ctrl = new PhieuBanController();

@@ -83,3 +83,47 @@ C:\Users\liett\Downloads\Cuahang_Nongduoc\Cuahang Nongduoc\obj\Debug\RdlCompile.
 C:\Users\liett\Downloads\Cuahang_Nongduoc\Cuahang Nongduoc\obj\Debug\CuahangNongduoc.csproj.CoreCompileInputs.cache
 C:\Users\liett\Downloads\Cuahang_Nongduoc\Cuahang Nongduoc\obj\Debug\CuahangNongduoc.exe
 C:\Users\liett\Downloads\Cuahang_Nongduoc\Cuahang Nongduoc\obj\Debug\CuahangNongduoc.pdb
+C:\Users\liett\Downloads\cuahangnongduoc\bin\Debug\CuahangNongduoc.exe
+C:\Users\liett\Downloads\cuahangnongduoc\bin\Debug\CuahangNongduoc.pdb
+C:\Users\liett\Downloads\cuahangnongduoc\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\liett\Downloads\cuahangnongduoc\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\liett\Downloads\cuahangnongduoc\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.csproj.AssemblyReference.cache
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmInPhieuChi.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmPhieuChi.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmLyDoChi.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmBanSi.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmDanhsachPhieuBanSi.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmDanhsachPhieuBanLe.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmBanLe.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmDaiLy.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmDanhsachPhieuNhap.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmDoanhThu.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmDonViTinh.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmDunoKhachhang.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmInDunoKhachHang.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmInPhieuBan.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmInPhieuNhap.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmKhachHang.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmMain.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmNhaCungCap.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmNhapHang.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmInPhieuThanhToan.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmSanPham.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmSanphamHethan.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmSoLuongBan.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmSoLuongTon.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmThanhToan.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmThongtinCuahang.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmThongtinLienhe.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmTimPhieuBanLe.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmTimPhieuChi.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmTimPhieuNhap.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmTimPhieuThu.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.Properties.Resources.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.csproj.GenerateResource.cache
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\RdlCompile.cache
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\RdlCompile.compiled
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.csproj.CoreCompileInputs.cache
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.exe
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.pdb
