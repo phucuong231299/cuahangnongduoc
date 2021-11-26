@@ -1,0 +1,72 @@
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongDuoc.frmMain.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongDuoc.Properties.Resources.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongDuoc.csproj.GenerateResource.Cache
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\bin\Debug\CuahangNongDuoc.exe
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\bin\Debug\CuahangNongDuoc.pdb
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongDuoc.exe
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongDuoc.pdb
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongduoc.frmDonViTinh.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongDuoc.frmSanPham.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongduoc.frmKhachHang.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongduoc.frmDaiLy.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongduoc.frmNhapHang.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongduoc.frmBanSi.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongduoc.frmBanLe.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongduoc.frmThanhToan.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongduoc.frmDoanhThu.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongduoc.frmDunoKhachhang.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongduoc.frmSanphamHethan.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongduoc.frmSoLuongBan.resources
+D:\Documents\Project\CuahangNongduoc\CuahangNongDuoc\obj\Debug\CuahangNongduoc.frmSoLuongTon.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.exe
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.pdb
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\bin\Debug\CuahangNongduoc.exe
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\bin\Debug\CuahangNongduoc.pdb
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\ResolveAssemblyReference.cache
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmBanSi.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmBanLe.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmDaiLy.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmDoanhThu.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmDonViTinh.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmDunoKhachhang.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmKhachHang.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmMain.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmNhapHang.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmSanPham.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmSanphamHethan.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmSoLuongBan.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmSoLuongTon.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmThanhToan.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.Properties.Resources.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.csproj.GenerateResource.Cache
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmThongtinCuahang.resources
+d:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmThongtinLienhe.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmDanhsachPhieuNhap.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmDanhsachPhieuBanLe.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmDanhsachPhieuBanSi.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.Report.rptChiTietPhieuNhap.rdlc
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.Report.rptPhieuNhap.rdlc
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmInPhieuNhap.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\RdlCompile.cache
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\RdlCompile.compiled
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.Report.rptChiTietPhieuBan.rdlc
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.Report.rptPhieuBan.rdlc
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmInPhieuBan.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.Report.rptThanhToan.rdlc
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmInPhieuThanhToan.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.Report.rptDsDuNoKhachHang.rdlc
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmInDunoKhachHang.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.Report.rptDuNoKhachHang.rdlc
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.Report.rptSanPhamHetHan.rdlc
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.Report.rptSoLuongTon.rdlc
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmNhaCungCap.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmLyDoChi.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.Report.rptPhieuChi.rdlc
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmPhieuChi.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmInPhieuChi.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.Report.rptSoLuongBan.rdlc
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmTimPhieuNhap.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmTimPhieuBanLe.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmTimPhieuChi.resources
+D:\Documents\Project\CuahangNongduoc\Cuahang NongDuoc\obj\Debug\CuahangNongduoc.frmTimPhieuThu.resources
