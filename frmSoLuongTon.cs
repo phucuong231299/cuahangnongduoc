@@ -18,6 +18,7 @@ namespace CuahangNongduoc
         private void frmSoLuongTon_Load(object sender, EventArgs e)
         {
             IList<CuahangNongduoc.BusinessObject.SoLuongTon> data = CuahangNongduoc.Controller.SanPhamController.LaySoLuongTon();
+            //MessageBox.Show(data);
             this.SoLuongTonBindingSource.DataSource = data;
             this.reportViewer.RefreshReport();
         }

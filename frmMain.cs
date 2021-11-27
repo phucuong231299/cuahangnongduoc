@@ -296,5 +296,20 @@ namespace CuahangNongduoc
         {
            // Help.ShowHelp(this, "CPP.CHM");
         }
+
+        private void btn_nhanvien_Click(object sender, EventArgs e)
+        {
+            frm_NhanVien NhanVien = null;
+           
+            if (NhanVien == null || NhanVien.IsDisposed)
+            {
+                NhanVien = new frm_NhanVien();
+                NhanVien.MdiParent = this;
+                NhanVien.Show();
+            }
+            else
+                NhanVien.Activate();
+            
+        }
     }
 }

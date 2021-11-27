@@ -92,6 +92,7 @@ namespace CuahangNongduoc
                 ds.ExecuteNoneQuery(new OleDbCommand("UPDATE THAM_SO SET SAN_PHAM = " + value));
             }
         }
+
 	
         
         public static CuahangNongduoc.BusinessObject.CuaHang LayCuaHang()
@@ -147,6 +148,20 @@ namespace CuahangNongduoc
             {
                 DataService ds = new DataService();
                 ds.ExecuteNoneQuery(new OleDbCommand("UPDATE THAM_SO SET KHACH_HANG = " + value));
+            }
+        }
+        public static long NhanVien
+        {
+            get
+            {
+                DataService ds = new DataService();
+                object obj = ds.ExecuteScalar(new OleDbCommand("SELECT NHAN_VIEN FROM THAM_SO"));
+                return Convert.ToInt64(obj);
+            }
+            set
+            {
+                DataService ds = new DataService();
+                ds.ExecuteNoneQuery(new OleDbCommand("UPDATE THAM_SO SET NHAN_VIEN = " + value));
             }
         }
 

@@ -127,3 +127,5 @@ C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\RdlCompile.compiled
 C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.csproj.CoreCompileInputs.cache
 C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.exe
 C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.pdb
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frm_NhanVien.resources
+C:\Users\liett\Downloads\cuahangnongduoc\obj\Debug\CuahangNongduoc.frmdangnhap.resources
