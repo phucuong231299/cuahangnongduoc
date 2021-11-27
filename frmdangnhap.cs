@@ -22,9 +22,28 @@ namespace CuahangNongduoc
 
         }
 
+        frmMain m = null;
         private void btndn_Click(object sender, EventArgs e)
         {
-          ctrl.dangnhap(txttendn.Text, txtmk.Text);
+            if (ctrl.dangnhap(txttendn.Text, txtmk.Text))
+            {
+                MessageBox.Show("Đăng nhập thành công");
+               
+                if (m == null || m.IsDisposed)
+                {
+                    this.Hide();
+                    m = new frmMain();
+                    m.Show();
+                }
+                else
+                    m.Activate();
+
+
+            }
+            else
+            {
+                MessageBox.Show("Tên đăng nhập hoặc mật khẩu sai");
+            }
             
         }
     }

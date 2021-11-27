@@ -31,9 +31,9 @@ namespace CuahangNongduoc.Controller
         {
             factory.TimMaNhanVien(ma);
         }
-        public void dangnhap(String tdn,string mk)
+        public Boolean dangnhap(String tdn,string mk)
         {
-            factory.dangnhap(tdn,mk);
+           return factory.dangnhap(tdn,mk);
         }
         public void TimTenNhanVien(String ten)
         {

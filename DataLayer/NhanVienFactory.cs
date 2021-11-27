@@ -4,6 +4,8 @@ using System.Text;
 using System.Data;
 using System.Data.OleDb;
 using System.Data.SqlClient;
+using System.Windows.Forms;
+
 
 
 namespace CuahangNongduoc.DataLayer
@@ -18,19 +20,34 @@ namespace CuahangNongduoc.DataLayer
             m_Ds.Load(cmd);
             return m_Ds;
         }
-        public void dangnhap(string tdn,string mk)
+        public Boolean dangnhap(string tdn,string mk)
         {
-            SqlParameter[] arr = new SqlParameter[2];
-            arr[0] = new SqlParameter("@TEN_DANG_NHAP", tdn);
-            arr[1] = new SqlParameter("@MAT_KHAU", mk);
-           // SqlDataReader rd=sqlh
+            
 
+            Boolean tam;
+            OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=cuahang.dll;");
+            string sql = "select *from NHAN_VIEN where TEN_DANG_NHAP='" + tdn + "' AND MAT_KHAU='" + mk + "'";
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand();
+            cmd.Connection = con;
+            cmd.CommandText= "select * from NHAN_VIEN where TEN_DANG_NHAP = '" + tdn + "' AND MAT_KHAU = '" + mk + "'";
+            OleDbDataReader rd= cmd.ExecuteReader();
+            int c = 0;
+            while (rd.Read())
+            {
+                c += 1;
+                c++;
+            }
+            if (c > 0)
+            {
+                return tam = true;
+            }
+            else
+            {
+                return tam = false;
+            }
+            return tam;
 
-
-            //OleDbCommand cmd = new OleDbCommand("SELECT * FROM NHAN_VIEN WHERE TEN_DANG_NHAP = @tdn and MAT_KHAU=@mk");
-            //cmd.Parameters.Add("tdn", OleDbType.VarChar, 50).Value = tdn;
-            //cmd.Parameters.Add("mk", OleDbType.VarChar, 50).Value = mk;
-            //m_Ds.Load(cmd).
 
 
         }

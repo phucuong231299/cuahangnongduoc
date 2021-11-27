@@ -296,10 +296,10 @@ namespace CuahangNongduoc
         {
            // Help.ShowHelp(this, "CPP.CHM");
         }
-
+        frm_NhanVien NhanVien = null;
         private void btn_nhanvien_Click(object sender, EventArgs e)
         {
-            frm_NhanVien NhanVien = null;
+           
            
             if (NhanVien == null || NhanVien.IsDisposed)
             {
@@ -310,6 +310,19 @@ namespace CuahangNongduoc
             else
                 NhanVien.Activate();
             
+        }
+
+        frmdangnhap dn = null;
+        private void btn_dangxuat_Click(object sender, EventArgs e)
+        {
+            if (dn == null || dn.IsDisposed)
+            {
+                this.Close();
+                dn = new frmdangnhap();
+                dn.Show();
+            }
+            else
+                dn.Activate();
         }
     }
 }
