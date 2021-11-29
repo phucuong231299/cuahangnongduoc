@@ -20,13 +20,21 @@ namespace CuahangNongduoc.DataLayer
             m_Ds.Load(cmd);
             return m_Ds;
         }
+        public void LayKhuyenMai(string tdn,string mk)
+        {
+            OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=cuahang.dll;");
+            con.Open();
+
+            OleDbDataAdapter da=new OleDbDataAdapter(@"select * from NHAN_VIEN where TEN_DANG_NHAP = '" + tdn + "' AND MAT_KHAU = '" + mk + "'",con);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+        }
         public Boolean dangnhap(string tdn,string mk)
         {
             
 
             Boolean tam;
             OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=cuahang.dll;");
-            string sql = "select *from NHAN_VIEN where TEN_DANG_NHAP='" + tdn + "' AND MAT_KHAU='" + mk + "'";
             con.Open();
             OleDbCommand cmd = new OleDbCommand();
             cmd.Connection = con;

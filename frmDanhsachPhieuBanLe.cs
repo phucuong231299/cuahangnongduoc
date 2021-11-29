@@ -12,15 +12,23 @@ namespace CuahangNongduoc
 {
     public partial class frmDanhsachPhieuBanLe : Form
     {
+        string khuyenmai = "";
         public frmDanhsachPhieuBanLe()
         {
             InitializeComponent();
+        }
+        public frmDanhsachPhieuBanLe(string khuyenmai)
+        {
+            InitializeComponent();
+            this.khuyenmai = khuyenmai;
+
         }
 
         PhieuBanController ctrl = new PhieuBanController();
         KhachHangController ctrlKH = new KhachHangController();
         private void frmDanhsachPhieuNhap_Load(object sender, EventArgs e)
         {
+            txt_dsbanle.Text = khuyenmai + "";
             ctrlKH.HienthiKhachHangDataGridviewComboBox(colKhachhang);
             ctrl.HienthiPhieuBanLe(bindingNavigator, dataGridView);
         }
@@ -40,7 +48,8 @@ namespace CuahangNongduoc
         {
             if (BanLe == null || BanLe.IsDisposed)
             {
-                BanLe = new frmBanLe();
+
+                BanLe = new frmBanLe(khuyenmai);
                 BanLe.Show();
             }
             else

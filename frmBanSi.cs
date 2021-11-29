@@ -12,6 +12,7 @@ namespace CuahangNongduoc
 {
     public partial class frmBanSi: Form
     {
+        string khuyenmai = "";
         SanPhamController ctrlSanPham = new SanPhamController();
         KhachHangController ctrlKhachHang = new KhachHangController();
         MaSanPhamController ctrlMaSanPham = new MaSanPhamController();
@@ -28,6 +29,13 @@ namespace CuahangNongduoc
             
             status = Controll.AddNew;
         }
+        public frmBanSi(string khuyenmai)
+        {
+            InitializeComponent();
+
+            status = Controll.AddNew;
+            this.khuyenmai = khuyenmai;
+        }
 
 
         public frmBanSi(PhieuBanController ctrlPB)
@@ -39,7 +47,7 @@ namespace CuahangNongduoc
 
         private void frmNhapHang_Load(object sender, EventArgs e)
         {
-
+            numkm.Text = khuyenmai;
             ctrlSanPham.HienthiAutoComboBox(cmbSanPham);
             ctrlMaSanPham.HienThiDataGridViewComboBox(colMaSanPham);
 

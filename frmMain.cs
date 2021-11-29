@@ -11,11 +11,19 @@ namespace CuahangNongduoc
 {
     public partial class frmMain : Form
     {
+        string hovaten = "", khuyenmai = "";
         public frmMain()
         {
             InitializeComponent();
         }
         frmDonViTinh DonViTinh = null;
+        public frmMain( string hovaten, string khuyenmai)
+        {
+            InitializeComponent(); 
+            this.hovaten = hovaten;
+            this.khuyenmai = khuyenmai;
+
+        }
 
         private void mnuDonViTinh_Click(object sender, EventArgs e)
         {
@@ -32,6 +40,7 @@ namespace CuahangNongduoc
 
         private void frmMain_Load(object sender, EventArgs e)
         {
+            txt_test.Text =hovaten.ToString();
             //RegistryKey regKey = Registry.CurrentUser.OpenSubKey("Software\\CoolSoft\\CuahangNongduoc");
 
             //if (regKey == null)
@@ -118,6 +127,7 @@ namespace CuahangNongduoc
             {
                 BanLe = new frmDanhsachPhieuBanLe();
                 BanLe.MdiParent = this;
+                BanLe = new frmDanhsachPhieuBanLe(khuyenmai);
                 BanLe.Show();
             }
             else
@@ -128,8 +138,9 @@ namespace CuahangNongduoc
         {
             if (BanSi == null || BanSi.IsDisposed)
             {
-                BanSi = new frmDanhsachPhieuBanSi();
+                BanSi = new frmDanhsachPhieuBanSi(khuyenmai);
                 BanSi.MdiParent = this;
+               // BanSi = new frmDanhsachPhieuBanSi();
                 BanSi.Show();
             }
             else

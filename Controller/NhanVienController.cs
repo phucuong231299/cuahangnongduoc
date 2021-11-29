@@ -31,6 +31,7 @@ namespace CuahangNongduoc.Controller
         {
             factory.TimMaNhanVien(ma);
         }
+       
         public Boolean dangnhap(String tdn,string mk)
         {
            return factory.dangnhap(tdn,mk);
