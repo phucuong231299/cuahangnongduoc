@@ -10,12 +10,12 @@ namespace CuahangNongduoc.BusinessObject
         private string hovaten;
         private string tendangnhap;
         private string matkhau;
-        private int khuyenmai;
+        
 
         public int Id { get => id; set => id = value; }
         public string Hovaten { get => hovaten; set => hovaten = value; }
         public string Tendangnhap { get => tendangnhap; set => tendangnhap = value; }
         public string Matkhau { get => matkhau; set => matkhau = value; }
-        public int Khuyenmai { get => khuyenmai; set => khuyenmai = value; }
+       
     }
 }

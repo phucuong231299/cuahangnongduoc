@@ -102,7 +102,8 @@ namespace CuahangNongduoc
             this.Controls.Add(this.txtmk);
             this.Controls.Add(this.txttendn);
             this.Name = "frmdangnhap";
-            this.Text = "frmdangnhap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Đăng nhập";
             this.ResumeLayout(false);
             this.PerformLayout();
 

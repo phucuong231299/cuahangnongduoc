@@ -34,11 +34,11 @@ namespace CuahangNongduoc
             if (dt.Rows.Count > 0)
             {
                 frmMain FM = new frmMain();
-                frmDanhsachPhieuBanLe bl = new frmDanhsachPhieuBanLe();
+                
                 MessageBox.Show("Chào mừng bạn đến với shop");
                 this.Hide();
-                FM = new frmMain(dt.Rows[0][1].ToString(), dt.Rows[0][4].ToString());
-                bl = new frmDanhsachPhieuBanLe(dt.Rows[0][4].ToString());
+                FM = new frmMain(dt.Rows[0][1].ToString());
+              
                 // hd = new frm_dmChiTietHoaDon(dt.Rows[0][4].ToString(), dt.Rows[0][1].ToString(), dt.Rows[0][0].ToString());
                 FM.Show();
 

@@ -48,6 +48,7 @@
             this.toolIn = new System.Windows.Forms.ToolStripButton();
             this.toolXemlai = new System.Windows.Forms.ToolStripButton();
             this.toolThoat = new System.Windows.Forms.ToolStripButton();
+            this.txt_test1 = new System.Windows.Forms.ToolStripTextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dgvDanhsachSP = new System.Windows.Forms.DataGridView();
@@ -81,10 +82,10 @@
             this.cmbSanPham = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.grpPhieuBanLe = new System.Windows.Forms.GroupBox();
-            this.label17 = new System.Windows.Forms.Label();
             this.btnThemDaiLy = new System.Windows.Forms.Button();
-            this.numkm = new System.Windows.Forms.NumericUpDown();
+            this.label16 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.numvanchuyen = new System.Windows.Forms.NumericUpDown();
             this.txtMaPhieu = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dtNgayLapPhieu = new System.Windows.Forms.DateTimePicker();
@@ -96,9 +97,8 @@
             this.numDaTra = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.numvanchuyen = new System.Windows.Forms.NumericUpDown();
-            this.txt_test1 = new System.Windows.Forms.ToolStripTextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.numkm = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator)).BeginInit();
             this.bindingNavigator.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -111,11 +111,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.numDonGia)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numSoLuong)).BeginInit();
             this.grpPhieuBanLe.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numkm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numvanchuyen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numConNo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numTongTien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numDaTra)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numvanchuyen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numkm)).BeginInit();
             this.SuspendLayout();
             // 
             // bindingNavigator
@@ -304,6 +304,12 @@
             this.toolThoat.Text = "Thoát";
             this.toolThoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolThoat.Click += new System.EventHandler(this.toolThoat_Click);
+            // 
+            // txt_test1
+            // 
+            this.txt_test1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_test1.Name = "txt_test1";
+            this.txt_test1.Size = new System.Drawing.Size(100, 58);
             // 
             // groupBox1
             // 
@@ -727,16 +733,6 @@
             this.grpPhieuBanLe.TabStop = false;
             this.grpPhieuBanLe.Text = "Phiếu bán lẽ";
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(27, 359);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(91, 20);
-            this.label17.TabIndex = 67;
-            this.label17.Text = "Khuyến mãi";
-            // 
             // btnThemDaiLy
             // 
             this.btnThemDaiLy.Image = global::CuahangNongduoc.Properties.Resources.add_16;
@@ -748,26 +744,15 @@
             this.btnThemDaiLy.UseVisualStyleBackColor = true;
             this.btnThemDaiLy.Click += new System.EventHandler(this.btnThemDaiLy_Click);
             // 
-            // numkm
+            // label16
             // 
-            this.numkm.Enabled = false;
-            this.numkm.Location = new System.Drawing.Point(144, 357);
-            this.numkm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.numkm.Maximum = new decimal(new int[] {
-            -727379968,
-            232,
-            0,
-            0});
-            this.numkm.Minimum = new decimal(new int[] {
-            1000000000,
-            0,
-            0,
-            -2147483648});
-            this.numkm.Name = "numkm";
-            this.numkm.Size = new System.Drawing.Size(231, 26);
-            this.numkm.TabIndex = 66;
-            this.numkm.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.numkm.ThousandsSeparator = true;
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(27, 142);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(93, 20);
+            this.label16.TabIndex = 63;
+            this.label16.Text = "Vận chuyển";
             // 
             // label2
             // 
@@ -778,6 +763,26 @@
             this.label2.Size = new System.Drawing.Size(75, 20);
             this.label2.TabIndex = 56;
             this.label2.Text = "Mã Phiếu";
+            // 
+            // numvanchuyen
+            // 
+            this.numvanchuyen.Location = new System.Drawing.Point(141, 140);
+            this.numvanchuyen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.numvanchuyen.Maximum = new decimal(new int[] {
+            -727379968,
+            232,
+            0,
+            0});
+            this.numvanchuyen.Minimum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            -2147483648});
+            this.numvanchuyen.Name = "numvanchuyen";
+            this.numvanchuyen.Size = new System.Drawing.Size(231, 26);
+            this.numvanchuyen.TabIndex = 62;
+            this.numvanchuyen.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.numvanchuyen.ThousandsSeparator = true;
             // 
             // txtMaPhieu
             // 
@@ -919,41 +924,35 @@
             this.label8.TabIndex = 42;
             this.label8.Text = "Tổng tiền";
             // 
-            // label16
+            // label17
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(27, 142);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(93, 20);
-            this.label16.TabIndex = 63;
-            this.label16.Text = "Vận chuyển";
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(27, 359);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(91, 20);
+            this.label17.TabIndex = 67;
+            this.label17.Text = "Khuyến mãi";
             // 
-            // numvanchuyen
+            // numkm
             // 
-            this.numvanchuyen.Location = new System.Drawing.Point(141, 140);
-            this.numvanchuyen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.numvanchuyen.Maximum = new decimal(new int[] {
+            this.numkm.Location = new System.Drawing.Point(144, 357);
+            this.numkm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.numkm.Maximum = new decimal(new int[] {
             -727379968,
             232,
             0,
             0});
-            this.numvanchuyen.Minimum = new decimal(new int[] {
+            this.numkm.Minimum = new decimal(new int[] {
             1000000000,
             0,
             0,
             -2147483648});
-            this.numvanchuyen.Name = "numvanchuyen";
-            this.numvanchuyen.Size = new System.Drawing.Size(231, 26);
-            this.numvanchuyen.TabIndex = 62;
-            this.numvanchuyen.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.numvanchuyen.ThousandsSeparator = true;
-            // 
-            // txt_test1
-            // 
-            this.txt_test1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_test1.Name = "txt_test1";
-            this.txt_test1.Size = new System.Drawing.Size(100, 58);
+            this.numkm.Name = "numkm";
+            this.numkm.Size = new System.Drawing.Size(231, 26);
+            this.numkm.TabIndex = 66;
+            this.numkm.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.numkm.ThousandsSeparator = true;
             // 
             // frmBanLe
             // 
@@ -986,11 +985,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.numSoLuong)).EndInit();
             this.grpPhieuBanLe.ResumeLayout(false);
             this.grpPhieuBanLe.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numkm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numvanchuyen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numConNo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numTongTien)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numDaTra)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numvanchuyen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numkm)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

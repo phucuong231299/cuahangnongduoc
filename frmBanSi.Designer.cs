@@ -931,7 +931,6 @@
             // 
             // numkm
             // 
-            this.numkm.Enabled = false;
             this.numkm.Location = new System.Drawing.Point(124, 363);
             this.numkm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numkm.Maximum = new decimal(new int[] {

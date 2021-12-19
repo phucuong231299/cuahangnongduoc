@@ -25,9 +25,9 @@ namespace CuahangNongduoc
         private void frm_NhanVien_Load(object sender, EventArgs e)
         {
 
-      
+
             ctrl.HienthiDataGridview(dataGridView1, bindingNavigator,
-            txtmanv, txttennv, txttendn, txtmk, txtkm);
+            txtmanv, txttennv, txttendn, txtmk);
             
         }
 
@@ -38,9 +38,9 @@ namespace CuahangNongduoc
             ThamSo.NhanVien = maso+1;
             row["ID"] = maso;
             row["HO_VA_TEN"] = "";
-            row["TEN_DANG_NHAP"] = 0;
+            row["TEN_DANG_NHAP"] = "";
             row["MAT_KHAU"] = "";
-            row["KHUYEN_MAI"] = 0;
+            
             
             ctrl.Add(row);
             bindingNavigator.BindingSource.MoveLast();

@@ -36,16 +36,11 @@ namespace CuahangNongduoc.Controller
         public void Save()
         {
             int n = PhieuBanFactory.LaySoPhieu();
-            if (n >= 50)
-            {
-                MessageBox.Show("Đây là bản dùng thử! Chỉ lưu được 50 phiếu bán!", "Phieu Ban", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            }
-            else
-            {
-                MessageBox.Show("Đây là bản dùng thử! Chỉ lưu được thêm " + Convert.ToString(50-n) + " phiếu bán!", "Phieu Ban", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
+            
+                
                 factory.Save();
-            }
+            
             
         }
         public void HienthiPhieuBanLe(BindingNavigator bn, DataGridView dg)

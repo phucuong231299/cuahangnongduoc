@@ -11,17 +11,17 @@ namespace CuahangNongduoc
 {
     public partial class frmMain : Form
     {
-        string hovaten = "", khuyenmai = "";
+        string hovaten = "";
         public frmMain()
         {
             InitializeComponent();
         }
         frmDonViTinh DonViTinh = null;
-        public frmMain( string hovaten, string khuyenmai)
+        public frmMain( string hovaten)
         {
             InitializeComponent(); 
             this.hovaten = hovaten;
-            this.khuyenmai = khuyenmai;
+            
 
         }
 
@@ -127,7 +127,7 @@ namespace CuahangNongduoc
             {
                 BanLe = new frmDanhsachPhieuBanLe();
                 BanLe.MdiParent = this;
-                BanLe = new frmDanhsachPhieuBanLe(khuyenmai);
+               
                 BanLe.Show();
             }
             else
@@ -138,7 +138,7 @@ namespace CuahangNongduoc
         {
             if (BanSi == null || BanSi.IsDisposed)
             {
-                BanSi = new frmDanhsachPhieuBanSi(khuyenmai);
+                BanSi = new frmDanhsachPhieuBanSi();
                 BanSi.MdiParent = this;
                // BanSi = new frmDanhsachPhieuBanSi();
                 BanSi.Show();

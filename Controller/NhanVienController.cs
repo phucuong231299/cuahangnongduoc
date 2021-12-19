@@ -42,7 +42,7 @@ namespace CuahangNongduoc.Controller
         }
 
         public void HienthiDataGridview(System.Windows.Forms.DataGridView dg, System.Windows.Forms.BindingNavigator bn,
-            TextBox txtmanv, TextBox txttennv, TextBox txttendanhnhap, TextBox matkhau, TextBox txtkhuyenmai)
+            TextBox txtmanv, TextBox txttennv, TextBox txttendanhnhap, TextBox matkhau)
         {
             System.Windows.Forms.BindingSource bs = new System.Windows.Forms.BindingSource();
             bs.DataSource = factory.DanhsachNhanVien();
@@ -59,8 +59,7 @@ namespace CuahangNongduoc.Controller
             matkhau.DataBindings.Clear();
             matkhau.DataBindings.Add("TEXT", bs, "MAT_KHAU");
 
-            txtkhuyenmai.DataBindings.Clear();
-            txtkhuyenmai.DataBindings.Add("text", bs, "KHUYEN_MAI");
+            
 
 
             bn.BindingSource = bs;
